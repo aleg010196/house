@@ -268,7 +268,7 @@ img {
 }
 
 .offer {
-  background: url("/repair/src/img/offer-bg.png") no-repeat;
+  background: url("/house/src/img/offer-bg.png") no-repeat;
   background-size: contain;
   background-position: center right;
   position: relative;
@@ -314,6 +314,29 @@ img {
 .offer__button {
   width: 100%;
   min-height: 70px;
+}
+
+.offer-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.offer__titleBottomLeft {
+  max-width: 224px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.offer__titleBottomRight {
+  max-width: 189;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 20px;
+  margin-left: 70px;
 }
 
 @media (max-width: 1200px) {
@@ -793,5 +816,27 @@ img {
       -ms-flex-align: start;
           align-items: flex-start;
   margin-bottom: 39px;
+}
+
+.headline {
+  background: url("/house/src/img/headline-bg.jpg");
+}
+
+.headline__title {
+  margin: auto;
+}
+
+.advantages-img {
+  width: 1170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.advantages__item {
+  width: 370;
 }
 /*# sourceMappingURL=style.css.map */
