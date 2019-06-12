@@ -774,14 +774,13 @@ img {
 .contacts {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  padding-top: 100px;
-  padding-left: 700px;
+  padding-left: 200px;
 }
 
 .contacts__title {
   font-family: 'Museo 700', sans-serif;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.4;
   margin-bottom: 100px;
 }
@@ -797,7 +796,7 @@ img {
 
 .contacts-list {
   padding: 0;
-  list-style-type: none;
+  list-style: none;
 }
 
 .contacts-list__icon {
@@ -824,10 +823,40 @@ img {
 
 .headline__title {
   margin: auto;
+  max-width: 907px;
 }
 
 .advantages-img {
-  width: 1170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-size: contain;
+}
+
+.advantages__item {
+  width: 370;
+}
+
+.assurance__title {
+  margin: auto;
+  max-width: 642px;
+}
+
+.assurance__subtitle {
+  padding-top: 41px;
+  margin: auto;
+  max-width: 280px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.assurance-block {
+  margin-top: 99px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -836,7 +865,10 @@ img {
           justify-content: space-between;
 }
 
-.advantages__item {
-  width: 370;
+.assurance__item__element {
+  width: 270px;
+  height: 360px;
+  border: 20px solid #f5f5f5;
+  background-color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
