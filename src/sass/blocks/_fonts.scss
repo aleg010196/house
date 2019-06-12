@@ -6,6 +6,7 @@
     url('/repair/src/fonts/MuseoSansCirilic/MuseoSansCyrl-300.woff') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: auto;
     }
 @font-face {
     font-family: 'Museo 700';
@@ -15,6 +16,7 @@
     url('/repair/src/fonts/MuseoSansCirilic/Museo700-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: auto;
 }
 
 @mixin reg{
