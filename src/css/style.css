@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Museo Sans Light';
-  src: url("/repair/src/fonts/MuseoSansCirilic/MuseoSansCyrl-300.eot");
-  src: url("repair/src/fonts/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("/repair/src/fonts/MuseoSansCirilic/MuseoSansCyrl-300.ttf") format("woff"), url("/repair/src/fonts/MuseoSansCirilic/MuseoSansCyrl-300.woff") format("truetype");
+  src: url("/src/fonts/MuseoSansCirilic/MuseoSansCyrl-300.eot");
+  src: url("/src/fonts/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("/src/fonts/MuseoSansCirilic/MuseoSansCyrl-300.ttf") format("woff"), url("/src/fonts/MuseoSansCirilic/MuseoSansCyrl-300.woff") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: auto;
@@ -9,8 +9,8 @@
 
 @font-face {
   font-family: 'Museo 700';
-  src: url("/repair/src/fonts/MuseoSansCirilic/Museo700-Regular.eot");
-  src: url("/repair/src/fonts/MuseoSansCirilic/Museo700-Regular.eot?#iefix") format("embedded-opentype"), url("/repair/src/fonts/MuseoSansCirilic/Museo700-Regular.woff") format("woff"), url("/repair/src/fonts/MuseoSansCirilic/Museo700-Regular.ttf") format("truetype");
+  src: url("/src/fonts/MuseoSansCirilic/Museo700-Regular.eot");
+  src: url("/src/fonts/MuseoSansCirilic/Museo700-Regular.eot?#iefix") format("embedded-opentype"), url("/src/fonts/MuseoSansCirilic/Museo700-Regular.woff") format("woff"), url("/src/fonts/MuseoSansCirilic/Museo700-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: auto;
